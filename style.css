@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+.jumbotron-fluid{
+    height:600px;
+    background: url("images/backimg.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+.container-lg{
+    color:white;
+}
+
+.app{
+    height:100px;
+    width:auto;
+    margin:10px 30px;
+}
+
+.logo img{
+    width:100px;
+    height:100px;
+}
+.btn{
+    margin: 30px;
+    color:white;
+}
+.footer{
+    background-color: #eee;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+    .logo img{
+        width:70px;
+        height:70px;
+    }
+    .container-lg{
+        font-size: 80%;
+    }
+    .container-lg h1{
+        font-size: 30px;
+    }
+    .container-lg p{
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 100%;
+    }
+    .container{
+        font-size: 80%;
+    }
+    .app{
+        height:60px;
+        width:auto;
+        margin:10px 30px;
+    }
+}
+@media (max-width: 480px){
+    .jumbotron-fluid{
+        height: 400px;
+    }
+    
+    .logo img{
+        width:40px;
+        height:40px;
+    }
+    .container-lg{
+        font-size: 60%;
+    }
+    .container-lg h1{
+        font-size: 20px;
+    }
+    .container-lg p{
+        font-size: 12px;
+    }
+    .btn{
+        font-size: 100%;
+        margin:15px;
+    }
+    .container{
+        font-size: 80%;
+    }
+    .app{
+        height:60px;
+        width:auto;
+        margin:10px 30px;
+    }
+}
